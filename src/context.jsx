@@ -13,10 +13,10 @@ export const AppContextProvider = ({ children }) => {
     setIsSideBarOpen(true);
   };
   const closeModal = () => {
-    setIsSideBarOpen(false);
+    setIsModalOpen(false);
   };
   const openModal = () => {
-    setIsSideBarOpen(true);
+    setIsModalOpen(true);
   };
 
   return (
